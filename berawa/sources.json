@@ -1,0 +1,40 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hotelsanmartin.es/",
+ "read_at": "2026-11-02T09:02:00+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hotelsanmartin.es/contacto/",
+   "sha256": "d2ee90e8f1d44e9b3ff1b10f2503ed1975352cd53c87e87fa155b2500788f177",
+   "chars": 1377
+  },
+  {
+   "url": "https://hotelsanmartin.es/en/reserves/",
+   "sha256": "65d3c5b5c7a4eca1e0ebe7b21b52eb9d44edf0c484311032a3d293574ac09600",
+   "chars": 1381
+  },
+  {
+   "url": "https://hotelsanmartin.es/hotel/",
+   "sha256": "7256e19f2beaba3fe8ef0d06de18bd70603080814d665456e5ace4cdea62be26",
+   "chars": 1528
+  },
+  {
+   "url": "https://hotelsanmartin.es/turismo/",
+   "sha256": "c4f9a4413245536a70dafa270671a624033a661a46d300b9cef8bc010e01acb9",
+   "chars": 3029
+  }
+ ],
+ "other_pages_read": [
+  "https://hotelsanmartin.es",
+  "https://hotelsanmartin.es/",
+  "https://hotelsanmartin.es/aviso-legal/",
+  "https://hotelsanmartin.es/en/",
+  "https://hotelsanmartin.es/en/contact/",
+  "https://hotelsanmartin.es/en/hotel/",
+  "https://hotelsanmartin.es/en/privacy-policy/",
+  "https://hotelsanmartin.es/en/tourism/",
+  "https://hotelsanmartin.es/politica-de-cookies/",
+  "https://hotelsanmartin.es/politica-de-privacidad/"
+ ]
+}

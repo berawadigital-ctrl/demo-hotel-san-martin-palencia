@@ -1,0 +1,420 @@
+{
+ "url": "http://127.0.0.1:41949/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "El hotel tiene 19 habitaciones: 1 suite, 1 para personas con movilidad reducida y 17 dobles."
+    },
+    {
+     "q": "¿Qué tienen las habitaciones?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Las habitaciones tienen baño completo, televisor, wifi gratuito, teléfono, hilo musical y calefacción individual."
+    },
+    {
+     "q": "¿Admitís mascotas?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Sí, se admiten animales bajo petición."
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí: hay restaurante, cafetería, terraza (en verano) y un jardín interior con terraza de uso exclusivo del hotel."
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hay zona de aparcamiento en el exterior y parking interior para bicicletas."
+    },
+    {
+     "q": "¿Puedo guardar la bici?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Hay zona de aparcamiento en el exterior y parking interior para bicicletas."
+    },
+    {
+     "q": "¿Está adaptado para silla de ruedas?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Sí: el edificio no tiene barreras arquitectónicas y hay una habitación para personas con movilidad reducida."
+    },
+    {
+     "q": "¿Dónde estáis?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Está en la Plaza San Martín, 7, 34440 Frómista (Palencia), al lado de la iglesia de San Martín de Tours."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar por teléfono en el 979 810 000 o por correo a info@hotelsanmartin.es (botón Reservar). Este asistente no confirma disponibil"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Puedes reservar por teléfono en el 979 810 000 o por correo a info@hotelsanmartin.es (botón Reservar). Este asistente no confirma disponibil"
+    },
+    {
+     "q": "¿Qué ver en Frómista?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Su web recomienda la iglesia románica de San Martín (segunda mitad del siglo XI, junto al hotel), el Museo Parroquial de San Pedro, Santa Ma"
+    },
+    {
+     "q": "¿Pasa el Camino de Santiago?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Sí: Frómista es población de paso del Camino de Santiago (de Roncesvalles a Santiago), del Camino del Agua (por el Canal de Castilla) y del "
+    },
+    {
+     "q": "¿Cuál es vuestro teléfono?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Teléfono: 979 810 000. Correo: info@hotelsanmartin.es. Consultar por WhatsApp →"
+    },
+    {
+     "q": "¿Cuánto cuesta la noche?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 979 810 000 · info@hotelsanmartin.es."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 979 810 000 · info@hotelsanmartin.es."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Admitís mascotas?",
+    "¿Hay restaurante?",
+    "¿Cómo reservo?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "The hotel has 19 rooms: 1 suite, 1 for guests with reduced mobility and 17 doubles."
+    },
+    {
+     "q": "What do the rooms include?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Rooms have a full bathroom, TV, free wifi, telephone, piped music and individual heating."
+    },
+    {
+     "q": "Do you allow pets?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Yes, animals are allowed on request."
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes: there is a restaurant, a café, a terrace (in summer) and an inner garden with terrace for hotel guests only."
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "There is an outdoor parking area and indoor bicycle parking."
+    },
+    {
+     "q": "Can I store my bike?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "There is an outdoor parking area and indoor bicycle parking."
+    },
+    {
+     "q": "Is it wheelchair accessible?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Yes: the building has no architectural barriers and there is a room for guests with reduced mobility."
+    },
+    {
+     "q": "Where are you?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "It is at Plaza San Martín, 7, 34440 Frómista (Palencia), next to the church of San Martín de Tours."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book by phone on 979 810 000 or by email at info@hotelsanmartin.es (Book button). This assistant does not confirm availability or bo"
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "You can book by phone on 979 810 000 or by email at info@hotelsanmartin.es (Book button). This assistant does not confirm availability or bo"
+    },
+    {
+     "q": "What to see in Frómista?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Their website recommends the Romanesque church of San Martín (second half of the eleventh century, next to the hotel), the San Pedro parish "
+    },
+    {
+     "q": "Is it on the Way of St James?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Yes: Frómista is a stop on the Way of St James (from Roncesvalles to Santiago), the Water Way (along the Canal de Castilla) and the Iron Way"
+    },
+    {
+     "q": "What is your phone number?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Phone: 979 810 000. Email: info@hotelsanmartin.es. Ask on WhatsApp →"
+    },
+    {
+     "q": "How much is a night?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 979 810 000 · info@hotelsanmartin.es."
+    },
+    {
+     "q": "Do you have a pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 979 810 000 · info@hotelsanmartin.es."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "Do you allow pets?",
+    "Is there a restaurant?",
+    "How do I book?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "L’hôtel compte 19 chambres : 1 suite, 1 pour personnes à mobilité réduite et 17 doubles."
+    },
+    {
+     "q": "Que comprennent les chambres ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Les chambres ont une salle de bains complète, un téléviseur, le wifi gratuit, le téléphone, de la musique d’ambiance et le chauffage individ"
+    },
+    {
+     "q": "Acceptez-vous les animaux ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Oui, les animaux sont admis sur demande."
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui : il y a un restaurant, une cafétéria, une terrasse (en été) et un jardin intérieur avec terrasse réservé à l’hôtel."
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il y a un parking extérieur et un local à vélos intérieur."
+    },
+    {
+     "q": "Puis-je ranger mon vélo ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Il y a un parking extérieur et un local à vélos intérieur."
+    },
+    {
+     "q": "Est-ce accessible en fauteuil roulant ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Oui : le bâtiment est sans barrières architecturales et une chambre est prévue pour les personnes à mobilité réduite."
+    },
+    {
+     "q": "Où êtes-vous ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "L’hôtel se trouve Plaza San Martín, 7, 34440 Frómista (Palencia), à côté de l’église San Martín de Tours."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver par téléphone au 979 810 000 ou par e-mail à info@hotelsanmartin.es (bouton Réserver). Cet assistant ne confirme ni dis"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Vous pouvez réserver par téléphone au 979 810 000 ou par e-mail à info@hotelsanmartin.es (bouton Réserver). Cet assistant ne confirme ni dis"
+    },
+    {
+     "q": "Que voir à Frómista ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Leur site recommande l’église romane de San Martín (seconde moitié du XIe siècle, à côté de l’hôtel), le musée paroissial de San Pedro, Sant"
+    },
+    {
+     "q": "Est-ce sur le Chemin de Saint-Jacques ?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Oui : Frómista est une étape du Chemin de Saint-Jacques (de Roncevaux à Santiago), du Chemin de l’Eau (le long du Canal de Castilla) et du C"
+    },
+    {
+     "q": "Quel est votre numéro de téléphone ?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Téléphone : 979 810 000. E-mail : info@hotelsanmartin.es. Écrire sur WhatsApp →"
+    },
+    {
+     "q": "Combien coûte la nuit ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 979 810 000 · info@hotelsanmartin.es."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 979 810 000 · info@hotelsanmartin.es."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Acceptez-vous les animaux ?",
+    "Y a-t-il un restaurant ?",
+    "Comment réserver ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "hero_k",
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Das Hotel hat 19 Zimmer: 1 Suite, 1 Zimmer für Personen mit eingeschränkter Mobilität und 17 Doppelzimmer."
+    },
+    {
+     "q": "Was bieten die Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Die Zimmer haben ein komplettes Bad, Fernseher, kostenloses WLAN, Telefon, Hintergrundmusik und individuelle Heizung."
+    },
+    {
+     "q": "Sind Haustiere erlaubt?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Ja, Tiere sind auf Anfrage erlaubt."
+    },
+    {
+     "q": "Gibt es ein Restaurant?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja: Es gibt ein Restaurant, ein Café, eine Terrasse (im Sommer) und einen Innengarten mit Terrasse nur für Hotelgäste."
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Es gibt Parkplätze im Außenbereich und einen Fahrradraum im Haus."
+    },
+    {
+     "q": "Kann ich mein Fahrrad abstellen?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Es gibt Parkplätze im Außenbereich und einen Fahrradraum im Haus."
+    },
+    {
+     "q": "Ist das Hotel rollstuhlgerecht?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Ja: Das Gebäude ist ohne bauliche Barrieren und es gibt ein Zimmer für Personen mit eingeschränkter Mobilität."
+    },
+    {
+     "q": "Wo liegt das Hotel?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Das Hotel liegt an der Plaza San Martín, 7, 34440 Frómista (Palencia), neben der Kirche San Martín de Tours."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können telefonisch unter 979 810 000 oder per E-Mail an info@hotelsanmartin.es buchen (Schaltfläche Buchen). Dieser Assistent bestätigt "
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Sie können telefonisch unter 979 810 000 oder per E-Mail an info@hotelsanmartin.es buchen (Schaltfläche Buchen). Dieser Assistent bestätigt "
+    },
+    {
+     "q": "Was kann man in Frómista besichtigen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Die Website empfiehlt die romanische Kirche San Martín (zweite Hälfte des XI. Jahrhunderts, neben dem Hotel), das Pfarrmuseum San Pedro, San"
+    },
+    {
+     "q": "Liegt es am Jakobsweg?",
+     "esperado": "K10",
+     "ok": true,
+     "respuesta": "Ja: Frómista liegt am Jakobsweg (von Roncesvalles nach Santiago), am Wasserweg (entlang des Canal de Castilla) und am Eisenweg (von Madrid n"
+    },
+    {
+     "q": "Wie ist Ihre Telefonnummer?",
+     "esperado": "K11",
+     "ok": true,
+     "respuesta": "Telefon: 979 810 000. E-Mail: info@hotelsanmartin.es. Per WhatsApp schreiben →"
+    },
+    {
+     "q": "Was kostet eine Nacht?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 979 810 000 · info@hotelsanmartin.es."
+    },
+    {
+     "q": "Haben Sie einen Pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 979 810 000 · info@hotelsanmartin.es."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Sind Haustiere erlaubt?",
+    "Gibt es ein Restaurant?",
+    "Wie kann ich buchen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}
